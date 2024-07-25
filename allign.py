@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 # Load the data
-file_path = 'Z:/working/Training/2024-Crick Microscopy Course/Live imaging/trial data/FUCCI_LEDpower_Jul24_1_MMStack_spots.csv'
+file_path = 'Z:/working/Training/2024-Crick Microscopy Course/Live imaging/trial data/Preliminary_Analysis/FUCCI_LEDpower_Jul24_1_MMStack_Pos7_spots.csv'
 data = pd.read_csv(file_path, skiprows=[1, 2, 3])
 data.sort_values(by=['TRACK_ID', 'FRAME'], ignore_index=True, inplace=True)
 
