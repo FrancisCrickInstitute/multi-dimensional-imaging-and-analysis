@@ -1,8 +1,8 @@
 # Preparation For Introduction to Image Analysis Workshop
 
 Please read the following instructions carefully to prepare for the workshop. Completing these steps prior to the workshop is essential to ensure we stay on schedule. If you are having any trouble with the below instructions, please reach out for help:
-* For issues with FIJI, contact Dave (David.Barry@crick.ac.uk)
-* For conda issues, contact Stefania (stefania.marcotti@kcl.ac.uk)
+* For issues with FIJI or QuPath, contact Dave (David.Barry@crick.ac.uk)
+* For issues with CellProfiler or conda, contact Todd (Todd.Fallesen@crick.ac.uk)
 
 ## Installing FIJI
 
@@ -25,6 +25,16 @@ Please read the following instructions carefully to prepare for the workshop. Co
    ![FIJI Webpage](https://github.com/RMS-DAIM/introduction-to-image-analysis/raw/dublin-2024.04.24/assets/Run_Updater.png)
 
 5. If FIJI produces any error messages, it is most likely because it does not have the necessary permissions to update itself - return to step #2 and double-check the location of the installation.
+
+## Installing QuPath
+
+1. Download QuPath from [here](https://qupath.github.io/).
+2. Follow the installation instructions [here](https://qupath.readthedocs.io/en/0.5/docs/intro/installation.html#installation).
+
+## Installing CellProfiler
+
+1. Download CellProfiler from [here](https://cellprofiler.org/releases)
+2. Get started with CellProfiler by following [these instructions](https://cellprofiler.org/getting-started).
 
 ## Installing conda
 
