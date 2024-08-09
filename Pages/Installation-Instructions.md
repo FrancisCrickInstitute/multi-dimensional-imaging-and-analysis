@@ -39,7 +39,7 @@ Please read the following instructions carefully to prepare for the workshop. Co
 ## Installing conda
 
 1. Install Miniconda by following the installation instructions for your operating system at [this page](https://docs.anaconda.com/free/miniconda/miniconda-install/)
-2. Please check that the installation worked properly by opening the Terminal (MacOS) or Anaconda Prompt (Windows) and typing `conda list`. If conda has been installed correctly, a list of installed packages appears.
+2. Please check the installation worked properly by opening the Terminal (MacOS) or Anaconda Prompt (Windows) and typing `conda list`. If conda has been installed correctly, a list of installed packages appears.
 
 FAQ: "What should I do if I already have `conda` installed on my machine?"
 
