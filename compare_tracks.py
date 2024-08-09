@@ -1,10 +1,10 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-file_path_0 = 'Z:/working/Training/2024-Crick Microscopy Course/Live imaging/trial data/Preliminary_Analysis/FUCCI_LEDpower_Jul24_1_MMStack_Pos0_tracks.csv'
+file_path_0 = 'Z:/working/Training/2024-Crick Microscopy Course/Live imaging/trial data/Prelim_analysis_2/Pos0/FUCCI_LEDpower_Jul24_2_MMStack_Pos0_tracks.csv'
 data0 = pd.read_csv(file_path_0, skiprows=[1, 2, 3])
 data0['POSITION'] = 0
-file_path_7 = 'Z:/working/Training/2024-Crick Microscopy Course/Live imaging/trial data/Preliminary_Analysis/FUCCI_LEDpower_Jul24_1_MMStack_Pos7_tracks.csv'
+file_path_7 = 'Z:/working/Training/2024-Crick Microscopy Course/Live imaging/trial data/Prelim_analysis_2/Pos7/FUCCI_LEDpower_Jul24_2_MMStack_Pos7_tracks.csv'
 data7 = pd.read_csv(file_path_7, skiprows=[1, 2, 3])
 data7['POSITION'] = 7
 

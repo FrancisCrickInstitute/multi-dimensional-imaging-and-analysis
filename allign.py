@@ -5,7 +5,7 @@ import numpy as np
 import pandas as pd
 
 # Load the data
-file_path = 'Z:/working/Training/2024-Crick Microscopy Course/Live imaging/trial data/Preliminary_Analysis/FUCCI_LEDpower_Jul24_1_MMStack_Pos7_spots.csv'
+file_path = 'Z:/working/Training/2024-Crick Microscopy Course/Live imaging/trial data/Prelim_analysis_2/Pos0/FUCCI_LEDpower_Jul24_2_MMStack_Pos0_spots.csv'
 data = pd.read_csv(file_path, skiprows=[1, 2, 3])
 data.sort_values(by=['TRACK_ID', 'FRAME'], ignore_index=True, inplace=True)
 
@@ -14,7 +14,7 @@ intensity_data = data[['FRAME', 'TRACK_ID', 'MEAN_INTENSITY_CH2', 'MEAN_INTENSIT
 
 
 # Function to find the point of steep fall in intensity
-def find_steep_fall(intensity_values, threshold=0.2, window=10):
+def find_steep_fall(intensity_values, threshold=0.1, window=50):
     for i in range(len(intensity_values) - window):
         if (intensity_values[i] > 0 and (intensity_values[i] - intensity_values[i + window]) / intensity_values[i]
                 >= threshold):
@@ -48,8 +48,8 @@ def align_intensity_data(data, channel_fall, channel_intensity):
 
 
 # Align and average intensity for each channel
-aligned_intensity_CH2 = align_intensity_data(intensity_data, 'MEAN_INTENSITY_CH3', 'MEAN_INTENSITY_CH2')
-aligned_intensity_CH3 = align_intensity_data(intensity_data, 'MEAN_INTENSITY_CH3', 'MEAN_INTENSITY_CH3')
+aligned_intensity_CH2 = align_intensity_data(intensity_data, 'MEAN_INTENSITY_CH2', 'MEAN_INTENSITY_CH2')
+aligned_intensity_CH3 = align_intensity_data(intensity_data, 'MEAN_INTENSITY_CH2', 'MEAN_INTENSITY_CH3')
 
 # Calculate the mean and standard deviation intensity across all tracks
 mean_aligned_intensity_CH2 = aligned_intensity_CH2.mean(axis=1)
@@ -59,12 +59,12 @@ std_aligned_intensity_CH3 = aligned_intensity_CH3.std(axis=1)
 
 # Plot the results
 plt.figure(figsize=(12, 6))
-# plt.plot(mean_aligned_intensity_CH2.index, mean_aligned_intensity_CH2.values, label='Geminin-mCherry (C2)', color='red')
-# plt.plot(mean_aligned_intensity_CH3.index, mean_aligned_intensity_CH3.values, label='Cdt-Venus (C3)', color='green')
-plt.errorbar(mean_aligned_intensity_CH2.index, mean_aligned_intensity_CH2.values, yerr=std_aligned_intensity_CH2.values,
-             label='Geminin-mCherry (C2)', color='red', fmt='-o', capsize=5)
-plt.errorbar(mean_aligned_intensity_CH3.index, mean_aligned_intensity_CH3.values, yerr=std_aligned_intensity_CH3.values,
-             label='Cdt-Venus (C3)', color='green', fmt='-o', capsize=5)
+plt.plot(mean_aligned_intensity_CH2.index, mean_aligned_intensity_CH2.values, label='Geminin-mCherry (C2)', color='red')
+plt.plot(mean_aligned_intensity_CH3.index, mean_aligned_intensity_CH3.values, label='Cdt-Venus (C3)', color='green')
+# plt.errorbar(mean_aligned_intensity_CH2.index, mean_aligned_intensity_CH2.values, yerr=std_aligned_intensity_CH2.values,
+#              label='Geminin-mCherry (C2)', color='red', fmt='-o', capsize=5)
+# plt.errorbar(mean_aligned_intensity_CH3.index, mean_aligned_intensity_CH3.values, yerr=std_aligned_intensity_CH3.values,
+#              label='Cdt-Venus (C3)', color='green', fmt='-o', capsize=5)
 plt.xlabel('Aligned Time (Frame)')
 plt.ylabel('Mean Intensity')
 plt.title('Aligned Mean Fluorescence Intensity Over Time for FUCCI')
