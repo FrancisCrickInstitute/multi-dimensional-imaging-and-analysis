@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 # Load the data
-file_path = 'Z:/working/Training/2024-Crick Microscopy Course/Live imaging/trial data/Prelim_analysis_2/Pos7/FUCCI_LEDpower_Jul24_2_MMStack_Pos7_spots.csv'
+file_path = 'Z:/working/Training/2024-Crick Microscopy Course/Live imaging/trial data/Prelim_analysis_2/Pos0/FUCCI_LEDpower_Jul24_2_MMStack_Pos0_spots.csv'
 data = pd.read_csv(file_path, skiprows=[1, 2, 3])
 data.sort_values(by=['TRACK_ID', 'FRAME'], ignore_index=True, inplace=True)
 
