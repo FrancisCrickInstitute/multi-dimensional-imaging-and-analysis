@@ -1,5 +1,9 @@
 # Cell Tracking
 
+<p align="center">
+  <img width="90%" src="./../assets/Tracking_Vis.png" alt="Tracking Visualisation">
+</p>
+
 For this module, you need to set up a conda environment to analyse tracking data in Jupyter notebooks.
 
 1. Make sure you first installed conda properly by following [these instructions](./../Pages/Installation-Instructions.md#installing-conda).
