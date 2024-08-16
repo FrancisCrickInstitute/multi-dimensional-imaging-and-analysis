@@ -1,3 +1,7 @@
+<p align="center">
+  <img width="25%" src="./assets/CRICK_Primary_Logo_CMYK High res.png" alt="Crick Logo">
+</p>
+
 # Welcome
 
 On these pages, you will find everything you need to know about installing software for the workshop.
