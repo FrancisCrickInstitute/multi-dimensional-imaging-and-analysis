@@ -21,7 +21,7 @@ For this module, you need to set up a conda environment to analyse tracking data
     ```
 5. Install the necessary packages for this session:
     ```
-    python -m pip install matplotlib pandas numpy jupyter
+    python -m pip install matplotlib pandas numpy seaborn jupyter
     ```
 
 For more information on using conda, see [here](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html).
