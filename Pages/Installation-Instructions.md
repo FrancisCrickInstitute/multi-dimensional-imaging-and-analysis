@@ -31,6 +31,12 @@ Please read the following instructions carefully to prepare for the workshop. Co
 1. Download QuPath from [here](https://qupath.github.io/).
 2. Follow the installation instructions [here](https://qupath.readthedocs.io/en/0.5/docs/intro/installation.html#installation).
 
+### Installing QuPath OMERO extension
+1. Download QuPath OMERO Glencoe OMERO extension version 0.4.3-gs [here](https://github.com/glencoesoftware/qupath-extension-omero-web/releases/download/v0.4.3-gs/qupath-extension-omero-web-0.4.3-gs.jar)
+2. Start up QuPath and drag the downloaded file onto the main QuPath window.
+  - If you haven't installed any extensions before, you'll be prompted to select a QuPath user directory. The extension will then be copied to a location inside that directory.
+3. You might then need to restart QuPath (but not your computer).
+
 ## Installing CellProfiler
 
 1. Download CellProfiler from [here](https://cellprofiler.org/releases)
