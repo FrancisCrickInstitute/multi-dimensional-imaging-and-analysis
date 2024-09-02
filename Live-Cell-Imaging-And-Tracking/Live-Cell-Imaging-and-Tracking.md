@@ -9,7 +9,7 @@ For this module, you need to set up a conda environment to analyse tracking data
 1. Make sure you first installed conda properly by following [these instructions](./../Pages/Installation-Instructions.md#installing-conda).
 2. Open Anaconda Prompt and type the following to create a new environment:
     ```
-    conda create --name cell-tracking
+    conda create --name cell-tracking python=3.12
     ```
 3. Check that the environment was created:
     ```
