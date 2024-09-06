@@ -39,8 +39,9 @@ For this module, you need to set up a conda environment to analyse tracking data
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Type in one cell
 
   ```
-  import numpy as np
+    import numpy as np
   ```
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and run
 <p align="center">
     <img width="90%" src="./../assets/Jupyter_notebook_Run_cell.png" alt="Tracking Visualisation">
