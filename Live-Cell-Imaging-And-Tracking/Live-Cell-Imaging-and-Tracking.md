@@ -36,12 +36,12 @@ When Jupyter notebook opens in the web browser, open a new notebook with File/Ne
 <p align="center">
   <img width="90%" src="./../assets/Jupyter_notebook_Select_kernel.png" alt="Tracking Visualisation">
 </p>
+Type in one cell
 
-    Type in one cell
     ```
     import numpy as np
     ```
-    and run
+and run
 <p align="center">
     <img width="90%" src="./../assets/Jupyter_notebook_Run_cell.png" alt="Tracking Visualisation">
 </p>
