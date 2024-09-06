@@ -27,25 +27,26 @@ For this module, you need to set up a conda environment to analyse tracking data
     ```
     jupyter notebook
     ```
-When Jupyter notebook opens in the web browser, open a new notebook with File/New/Notebook
+    When Jupyter notebook opens in the web browser, open a new notebook with File/New/Notebook
 <p align="center">
   <img width="90%" src="./../assets/Jupyter_notebook_Open_new.png" alt="Tracking Visualisation">
 </p>
 
-  Select a python kernel
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select a python kernel
 <p align="center">
   <img width="90%" src="./../assets/Jupyter_notebook_Select_kernel.png" alt="Tracking Visualisation">
 </p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Type in one cell
 
-    Type in one cell
-    ```
+  ```
     import numpy as np
-    ```
-    and run
+  ```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and run
 <p align="center">
     <img width="90%" src="./../assets/Jupyter_notebook_Run_cell.png" alt="Tracking Visualisation">
 </p>
-    If no error is found, it means that the package has been installed correctly.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If no error is found, it means that the package has been installed correctly.
 
 
 
