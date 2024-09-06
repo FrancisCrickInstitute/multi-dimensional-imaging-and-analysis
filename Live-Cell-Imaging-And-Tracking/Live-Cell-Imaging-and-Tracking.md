@@ -17,11 +17,38 @@ For this module, you need to set up a conda environment to analyse tracking data
     ```
 4. Activate your new environment so you can use it:
     ```
-    conda activate cell-tracking	
+    conda activate cell-tracking
     ```
 5. Install the necessary packages for this session:
     ```
-    python -m pip install matplotlib pandas numpy seaborn jupyter
+    conda install matplotlib pandas numpy seaborn jupyter
     ```
+6. Open Jupyter Notebook and check that the installed packages can be correctly imported.
+    ```
+    jupyter notebook
+    ```
+When Jupyter notebook opens in the web browser, open a new notebook with File/New/Notebook
+<p align="center">
+  <img width="90%" src="./../assets/Jupyter_notebook_Open_new.png" alt="Tracking Visualisation">
+</p>
+
+  Select a python kernel
+<p align="center">
+  <img width="90%" src="./../assets/Jupyter_notebook_Select_kernel.png" alt="Tracking Visualisation">
+</p>
+
+    Type in one cell
+    ```
+    import numpy as np
+    ```
+    and run
+<p align="center">
+    <img width="90%" src="./../assets/Jupyter_notebook_Run_cell.png" alt="Tracking Visualisation">
+</p>
+    If no error is found, it means that the package has been installed correctly.
+
+
 
 For more information on using conda, see [here](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html).
+
+For a detailed explanation on Jupyter Notebook, visit the [Jupyter Notebook User Documentation](https://jupyter-notebook.readthedocs.io/en/latest/notebook.html)
