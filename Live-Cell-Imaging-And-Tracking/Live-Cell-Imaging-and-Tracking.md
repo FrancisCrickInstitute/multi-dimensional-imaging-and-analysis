@@ -4,6 +4,12 @@
   <img width="90%" src="./../assets/Tracking_Vis.png" alt="Tracking Visualisation">
 </p>
 
+## Download demo data
+
+We're going to be working with some example datasets, which you can download from [here](https://www.dropbox.com/scl/fo/6k0erahv2y6yxa17p2vt2/AJEAOdiRSmFPHP3vF7t_6JI?rlkey=i74r1fqhht0avkys5t0wcyl2t&dl=0).
+
+## Set up conda environment
+
 For this module, you need to set up a conda environment to analyse tracking data in Jupyter notebooks.
 
 1. Make sure you first installed conda properly by following [these instructions](./../Pages/Installation-Instructions.md#installing-conda).
