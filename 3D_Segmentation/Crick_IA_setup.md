@@ -10,7 +10,8 @@ We will be using the **Crick_IA.yml** file to create our segmentation conda inst
 
 Let's get started by installing the yml file first
 
-  Open up the Anaconda Prompt and enter these commands:
+  Open up the Anaconda Prompt and navigate to where the environment file (in this case, Crick_IA.yml) is
+  Then, enter this command in the Anaconda prompt:
 ```
 conda create -f Crick_IA.yml
 ```
