@@ -25,7 +25,7 @@ conda activate Crick_IA
   Now to install remote_ikernel, the kernel manager
 
 ```
-pip instll remote_ikernel
+pip install remote_ikernel
 ```
 
   Once the remote_ikernel is installed, we can link the kernel to jupyter notebooks easily using this command
