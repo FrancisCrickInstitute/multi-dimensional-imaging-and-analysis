@@ -13,7 +13,7 @@ Let's get started by installing the yml file first
   Open up the Anaconda Prompt and navigate to where the environment file (in this case, Crick_IA.yml) is
   Then, enter this command in the Anaconda prompt:
 ```
-conda create -f Crick_IA.yml
+conda env create -f Crick_IA.yml
 ```
 
   Once the environment is created, we need to activate it
