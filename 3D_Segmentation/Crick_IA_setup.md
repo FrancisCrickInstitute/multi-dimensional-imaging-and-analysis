@@ -31,7 +31,7 @@ pip install remote_ikernel
   Once the remote_ikernel is installed, we can link the kernel to jupyter notebooks easily using this command
 
 ```
-python3 -m remote_ikernel manage --add --kernel_cmd="conda activate Crick_IA.yml && ipython3 kernel -f {connection_file}" --name="Crick_IA.yml" --interface=local --workdir="~/" --language=python3
+python -m remote_ikernel manage --add --kernel_cmd="conda activate Crick_IA.yml && ipython3 kernel -f {connection_file}" --name="Crick_IA.yml" --interface=local --workdir="~/" --language=python3
 ```
 
   Now we can open jupyter notebook from the Anaconda prompt using this command:
