@@ -1,0 +1,20 @@
+name: Crick_IA
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - numpy
+  - scikit-image
+  - pandas
+  - seaborn
+  - matplotlib
+  - stardist
+  - cellpose
+  - ipython
+  - ipykernel
+  - jupyterlab
+  #- remote_ikernel
+
+
+#need to pip install remote_ikernel after activating
+
