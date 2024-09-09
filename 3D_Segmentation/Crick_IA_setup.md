@@ -47,4 +47,4 @@ import stardist
 import cellpose
 ```
 
-    If these work, we're doing great!
+If these work, we're doing great!
