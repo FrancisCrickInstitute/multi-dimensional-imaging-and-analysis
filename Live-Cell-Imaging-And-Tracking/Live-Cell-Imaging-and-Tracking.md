@@ -4,7 +4,7 @@
   <img width="90%" src="./../assets/Tracking_Vis.png" alt="Tracking Visualisation">
 </p>
 
-## Download slides
+## Download slides (Optional)
 
 All the slides that will be used in this session are [here](https://www.dropbox.com/scl/fi/w2o09kpr3drn4xgf5pbyq/Tracking.pptx?rlkey=d3d1tys47pt14f0i6jxb0htqz&dl=0).
 
