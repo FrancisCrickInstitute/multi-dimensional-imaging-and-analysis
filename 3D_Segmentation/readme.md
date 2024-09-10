@@ -6,4 +6,4 @@
 * [Crick_IA.yml](./Crick_IA.yml) - Conda environment for the 3D Segmentation workshop
 * [Image_Set_1_001.tif](./Image_Set_1_001.tif) - 2D Nucleus example
 * [3d_monolayer_xy1_ch2.tif](./3d_monolayer_xy1_ch2.tif) - 3D Nucleus example
-* [stardist_process_folder.ijm](./stardist_process_folder.ijm) - Fiji macro for running stardist on a set of images in a folder
+
