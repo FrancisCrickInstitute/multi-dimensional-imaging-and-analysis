@@ -1,5 +1,5 @@
 ## These are the files used in the Colocalization workshop taught by Todd.
-* Colocalization.pptx - Powerpoint slides given during the lecture
+* [Colocalization.pptx](./Colocalization.pptx) - Powerpoint slides given during the lecture
 * ExampleSpeckles.zip - CellProfiler example pipeline for relating objects
 * split_channel_multiple_series_and_rename.ijm - Fiji macro for splitting all the multi channel z-stacks in a folder into individual tif images
 * stardist_process_folder.ijm - Fiji macro for running stardist on a set of images in a folder
