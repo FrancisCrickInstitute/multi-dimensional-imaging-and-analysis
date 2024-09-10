@@ -17,4 +17,4 @@ We will be using different software on each day, depending on the module. For sp
 1. QuPath & OMERO
 2. [Co-Localisation with CellProfiler](./Colocalization/readme.md)
 3. [Cell Tracking](./Live-Cell-Imaging-And-Tracking/Live-Cell-Imaging-and-Tracking.md)
-4. 3D Segmentation
+4. [3D Segmentation](./3D_Segmentation/readme.md)
