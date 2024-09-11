@@ -8,7 +8,7 @@
 
 ### Demo Images
 * [Image_Set_1_001.tif](./Image_Set_1_001.tif) - 2D Nucleus example
-* [3d_monolayer_xy1_ch2.tif](./CellPose_Demo_Sept24.ipynb) - 3D Nucleus example
+* [3d_monolayer_xy1_ch2.tif](./3d_monolayer_xy1_ch2.tif) - 3D Nucleus example
 
 ### Demo Code
 * [StarDist_Demo.ipynb](./StarDist_Demo.ipynb) - StarDist Segmentation Jupyter Notebook
