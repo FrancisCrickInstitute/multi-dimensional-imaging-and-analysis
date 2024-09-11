@@ -4,6 +4,10 @@
   <img width="90%" src="./../assets/Tracking_Vis.png" alt="Tracking Visualisation">
 </p>
 
+## Download slides (Optional)
+
+All the slides that will be used in this session are [here](https://www.dropbox.com/scl/fi/w2o09kpr3drn4xgf5pbyq/Tracking.pptx?rlkey=d3d1tys47pt14f0i6jxb0htqz&dl=0).
+
 ## Download demo data
 
 We're going to be working with some example datasets, which you can download from [here](https://www.dropbox.com/scl/fo/6k0erahv2y6yxa17p2vt2/AJEAOdiRSmFPHP3vF7t_6JI?rlkey=i74r1fqhht0avkys5t0wcyl2t&dl=0).

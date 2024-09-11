@@ -8,6 +8,7 @@ dependencies:
   - pandas
   - seaborn
   - matplotlib
+  - tensorflow #added by todd 9/10/24
   - stardist
   - cellpose
   - ipython
