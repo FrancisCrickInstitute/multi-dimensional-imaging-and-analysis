@@ -15,3 +15,6 @@
 * [CellPose_Demo_Sept24.ipynb](./CellPose_Demo_Sept24.ipynb) - CellPose Segmentation Jupyter Notebook
 * [Data_Analysis.ipynb](./Data_Analysis.ipynb) - Data Analysis Jupyter Notebook
 
+### Presentation
+* [3D Segmentation_TF.pptx](./3D Segmentation_TF.pptx) Course slides
+
