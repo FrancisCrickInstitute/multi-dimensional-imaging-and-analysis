@@ -17,7 +17,7 @@ We're going to be working with some example datasets, which you can download fro
 For this module, you need to set up a conda environment to analyse tracking data in Jupyter notebooks.
 
 1. Make sure you first installed conda properly by following [these instructions](./../Pages/Installation-Instructions.md#installing-conda).
-2. Open Anaconda Prompt and type the following to create a new environment:
+2. Open Anaconda Prompt (use `terminal` on Macs) and type the following to create a new environment:
     ```
     conda create --name cell-tracking python=3.12
     ```
