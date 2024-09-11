@@ -2,7 +2,7 @@
 
 ## Please look to [Crick_IA_setup.md](./Crick_IA_setup.md) to install the conda environment that we will be using in class. We will go over this in class
 
-## Files we are going to use:
+## Please download all these files to a location on your harddrive that is easy to find repeatedly:
 ### Environment File:
 * [Crick_IA.yml](./Crick_IA.yml) - Conda environment for the 3D Segmentation workshop
 
