@@ -16,5 +16,6 @@
 * [Data_Analysis.ipynb](./Data_Analysis.ipynb) - Data Analysis Jupyter Notebook
 
 ### Presentation
-* [3D Segmentation_TF.pptx](./3D Segmentation_TF.pptx) Course slides
+* [3D_Segmentation_TF.pptx](./3D Segmentation_TF.pptx) Course slides
+* [conda-cheatsheet.pdf](./conda-cheatsheet.pdf) Conda Cheat Sheet
 
