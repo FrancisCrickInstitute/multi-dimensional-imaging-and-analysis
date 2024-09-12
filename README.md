@@ -8,7 +8,7 @@ On these pages, you will find everything you need to know about installing softw
 
 # Please do the following BEFORE the workshop
 
-1. Download all the scripts you will be using by clicking on the icon above.
+1. Download all the scripts you will be using by clicking on the `tar` or `zip` icon above.
 2. Install the software we will be using throughout the week - follow [these instructions](./Pages/Installation-Instructions.md)
 
 # Optional: Install module-specific packages
