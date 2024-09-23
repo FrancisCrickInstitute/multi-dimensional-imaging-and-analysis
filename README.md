@@ -18,3 +18,11 @@ We will be using different software on each day, depending on the module. For sp
 2. [Co-Localisation with CellProfiler](./Colocalization/readme.md)
 3. [Cell Tracking](./Live-Cell-Imaging-And-Tracking/Live-Cell-Imaging-and-Tracking.md)
 4. [3D Segmentation](./3D_Segmentation/readme.md)
+
+# Slides
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13829528.svg)](https://zenodo.org/doi/10.5281/zenodo.13829527)
+
+All of the presentation material for this workshop is available on Zenodo and can be referenced as follows:
+
+Barry, D., Fallesen, T., Bell, D., Ciccarelli, A., & Spitzer, S. (2024). Multi-Dimensional Imaging & Analysis. _Zenodo_. https://doi.org/10.5281/zenodo.13829528
