@@ -40,4 +40,4 @@ For this module, you need to set up a conda environment to analyse tracking data
 
 For more information on using conda, see [here](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html).
 
-For a detailed explanation on Jupyter Notebook, visit the [Jupyter Notebook User Documentation](https://jupyter-notebook.readthedocs.io/en/latest/notebook.html)
+For a detailed explanation on Jupyter Lab, visit the [Jupyter Lab User Documentation](https://jupyterlab.readthedocs.io/en/latest/)
