@@ -33,32 +33,10 @@ For this module, you need to set up a conda environment to analyse tracking data
     ```
     python -m pip install -r ./tracking_requirements.txt
     ```
-6. Open Jupyter Notebook and check that the installed packages can be correctly imported.
+6. Open Jupyter Notebook:
     ```
     jupyter notebook
     ```
-    When Jupyter notebook opens in the web browser, open a new notebook with File/New/Notebook
-<p align="center">
-  <img width="90%" src="./../assets/Jupyter_notebook_Open_new.png" alt="Tracking Visualisation">
-</p>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select a python kernel
-<p align="center">
-  <img width="90%" src="./../assets/Jupyter_notebook_Select_kernel.png" alt="Tracking Visualisation">
-</p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Type in one cell
-
-  ```
-    import numpy as np
-  ```
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and run
-<p align="center">
-    <img width="90%" src="./../assets/Jupyter_notebook_Run_cell.png" alt="Tracking Visualisation">
-</p>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If no error is found, it means that the package has been installed correctly.
-
-
 
 For more information on using conda, see [here](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html).
 
