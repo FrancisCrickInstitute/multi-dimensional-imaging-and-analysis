@@ -19,7 +19,7 @@ For this module, you need to set up a conda environment to analyse tracking data
 1. Make sure you first installed conda properly by following [these instructions](./../Pages/Installation-Instructions.md#installing-conda).
 2. Open Anaconda Prompt (use `terminal` on Macs) and type the following to create a new environment:
     ```
-    conda create --name cell-tracking python=3.12
+    conda create --name cell-tracking python=3.13
     ```
 3. Check that the environment was created:
     ```
@@ -31,7 +31,7 @@ For this module, you need to set up a conda environment to analyse tracking data
     ```
 5. Install the necessary packages for this session:
     ```
-    conda install matplotlib pandas numpy seaborn jupyter
+    python -m pip install -r ./tracking_requirements.txt
     ```
 6. Open Jupyter Notebook and check that the installed packages can be correctly imported.
     ```
