@@ -33,9 +33,9 @@ For this module, you need to set up a conda environment to analyse tracking data
     ```
     python -m pip install -r ./tracking_requirements.txt
     ```
-6. Open Jupyter Notebook:
+6. Open Jupyter Lab:
     ```
-    jupyter notebook
+    jupyter-lab
     ```
 
 For more information on using conda, see [here](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html).
