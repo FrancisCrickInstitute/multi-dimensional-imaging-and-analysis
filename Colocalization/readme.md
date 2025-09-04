@@ -13,7 +13,7 @@ We're going to be working with some example datasets, which you can download fro
 
 ## Fiji macro
 
-* [SplitChannels.ijm](./SplitChannels.ijm) - Fiji macro for splitting all the multi channel z-stacks in a folder into individual tif images. Takes as input a folder containing the images you want to split, a folder to save the output and the required file extension (e.g., .tif). Requires[Bio-Formats](https://imagej.net/formats/bio-formats).
+* [SplitChannels.ijm](./SplitChannels.ijm) - [Fiji](https://imagej.net/software/fiji/) macro for splitting all the multi channel z-stacks in a folder into individual tif images. Takes as input a folder containing the images you want to split, a folder to save the output and the required file extension (e.g., .tif). It requires the [Bio-Formats](https://imagej.net/formats/bio-formats) plugin in Fiji.
 
 ## CellProfiler pipelines
 
