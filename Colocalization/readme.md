@@ -1,6 +1,6 @@
 # Co-localisation
 
-In this module, we will cover how to use [CellProfiler](). We will first learn how to perform simple quantifications of objects of interest in an image. Next, we are going to look at two different approaches to measure co-localisation. Finally, we will have some time to explore the data acquired during the practical session.
+In this module, we will cover how to use [CellProfiler](https://cellprofiler.org/). We will first learn how to perform simple quantifications of objects of interest in an image. Next, we are going to look at two different approaches to measure co-localisation. Finally, we will have some time to explore the data acquired during the practical session.
 
 ## Download slides (Optional)
 
