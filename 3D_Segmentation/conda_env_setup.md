@@ -12,7 +12,7 @@ Let's get started by installing the yml file first
   Open up the Anaconda Prompt and navigate to where the environment file (in this case, calm-3dsegm.yml) is
   Then, enter this command in the Anaconda prompt:
 ```
-conda env create -f calm-3segm.yml
+conda env create -f calm-3dsegm.yml
 ```
 
   Once the environment is created, we need to activate it
