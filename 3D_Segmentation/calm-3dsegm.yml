@@ -1,0 +1,16 @@
+name: calm-3dsegm
+channels:
+  - conda-forge
+dependencies:
+  - numpy
+  - scikit-image
+  - pandas
+  - seaborn
+  - matplotlib
+  - stardist
+  - jupyterlab
+  - napari
+  - pyqt
+  - pip
+  - pip:
+    - tensorflow
