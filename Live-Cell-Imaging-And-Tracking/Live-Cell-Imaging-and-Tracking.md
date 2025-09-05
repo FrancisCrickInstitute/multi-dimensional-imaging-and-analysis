@@ -17,23 +17,29 @@ We're going to be working with some example datasets, which you can download fro
 For this module, you need to set up a conda environment to analyse tracking data in Jupyter notebooks.
 
 1. Make sure you first installed conda properly by following [these instructions](./../Pages/Installation-Instructions.md#installing-conda).
-2. Open Anaconda Prompt (use `terminal` on Macs) and type the following to create a new environment:
+2. Make sure you have already downloaded all the scripts we will be using by clicking on the `tar` or `zip` icon on [this page](../README.md).
+3. Open Anaconda Prompt (use `terminal` on Macs) and navigate to wherever you saved and unzipped the scripts in step #2 above:
+    ```
+    cd <path_to_unzipped_files>/FrancisCrickInstitute-multi-dimensional-imaging-and-analysis-*******/Live-Cell-Imaging-And-Tracking
+    ```
+    You'll need to replace `<path_to_unzipped_files>` with the location of the unzipped folder on your computer.
+4. Type the following to create a new environment:
     ```
     conda create --name cell-tracking python=3.13
     ```
-3. Check that the environment was created:
+6. Check that the environment was created:
     ```
     conda env list
     ```
-4. Activate your new environment so you can use it:
+7. Activate your new environment so you can use it:
     ```
     conda activate cell-tracking
     ```
-5. Install the necessary packages for this session:
+8. Install the necessary packages for this session:
     ```
     python -m pip install -r ./tracking_requirements.txt
     ```
-6. Open Jupyter Lab:
+9. Open Jupyter Lab:
     ```
     jupyter-lab
     ```
