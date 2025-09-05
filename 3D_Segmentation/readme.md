@@ -1,5 +1,6 @@
-# 3D segmentation workshop – 10-11th September 2025
+# 3D segmentation workshop
 ### Multi-Dimensional Imaging and Analysis Course
+#### 10th & 11th September 2025
 
 ## Please look at [conda_env_setup.md](./conda_env_setup.md) to install the conda environment that we will be using in class. We will go over this in class
 
