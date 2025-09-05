@@ -1,6 +1,5 @@
-# 3D Segmentation workshop
-
-## Setting up the conda environment
+# Conda Environment Set-Up Instructions
+### 3D Segmentation Workshop (MDIA 2025)
 
 We will be using a yml file to setup our conda environment.  Yml files (Yet another Markup Language) files are a quick and easy way to share reproducible environments between image analysts. Remember
 **REPRODUCIBILTY IS KEY IN IMAGE ANALYSIS**
