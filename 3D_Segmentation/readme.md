@@ -1,6 +1,7 @@
-# This is the course materials for the 3D segmentation workshop
+# 3D segmentation workshop – 10-11th September 2025
+### Multi-Dimensional Imaging and Analysis Course
 
-## Please look to [conda_env_setup.md](./conda_env_setup.md) to install the conda environment that we will be using in class. We will go over this in class
+## Please look at [conda_env_setup.md](./conda_env_setup.md) to install the conda environment that we will be using in class. We will go over this in class
 
 ## Please download all these files to a location on your harddrive that is easy to find repeatedly:
 ### Environment File:
@@ -14,6 +15,6 @@
 * [StarDist_Demo.ipynb](./StarDist_Demo.ipynb) - StarDist Segmentation Jupyter Notebook
 * [Data_Analysis.ipynb](./Data_Analysis.ipynb) - Data Analysis Jupyter Notebook
 
-### Presentation
-LINK TO DROPBOX
+### Slides
+The slides used in the workshop are available in our [Dropbox](https://www.dropbox.com/home/LightMicroscopy/Training/Multi-Dimensional%20Imaging%20and%20Analysis%20Course/2025%20Multi-Dimensional%20Imaging%20and%20Analysis%20Course/Sessions/04%203D%20imaging%20and%20segmentation/Analysis%20Workshop).
 

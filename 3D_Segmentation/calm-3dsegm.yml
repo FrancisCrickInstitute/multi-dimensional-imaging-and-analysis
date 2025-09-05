@@ -12,5 +12,7 @@ dependencies:
   - napari
   - pyqt
   - pip
+  - ipython
+  - ipykernel
   - pip:
     - tensorflow
