@@ -32,17 +32,17 @@ We will be using a .yml file to setup our conda environment.  YAML files (*Yet A
     pip install remote_ikernel
     ```
 7. Once installed, we can link the kernel to Jupyter with the following command:
-  ```
-  python -m ipykernel install --user --name=calm-3dsegm --display-name "MDIA 3D Segmentation"
-  ```
+    ```
+    python -m ipykernel install --user --name=calm-3dsegm --display-name "MDIA 3D Segmentation"
+    ```
 8. Open Jupyter notebooks from the terminal:
     ```
     jupyter notebook
     ```
 9. Once it opens, create a new notebook and try running:
-  ```
-  import stardist
-  ```
+    ```
+    import stardist
+    ```
   If it works, we are on the right track!
 
 
