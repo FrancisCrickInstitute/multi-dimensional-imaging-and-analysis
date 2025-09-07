@@ -1,6 +1,9 @@
 # 3D segmentation workshop
-### Multi-Dimensional Imaging and Analysis Course
 #### 10th & 11th September 2025
+<p align="center">
+  <img width="90%" src="./../assets/stardist-3dseg-banner.png" alt="3D Segmentation Visualisation">
+</p>
+
 
 ## Please look at [conda_env_setup.md](./conda_env_setup.md) to install the conda environment that we will be using in class. We will go over this in class
 
