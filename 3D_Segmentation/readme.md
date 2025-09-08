@@ -21,7 +21,8 @@ During the second part of the workshop, we will be using the following notebooks
 
   
 ## Set up the conda environment
-For this module, we will be using jupyter notebooks to run our 3D segmentation with StarDist and analyse the resulting data.
+For this module, we will be using jupyter notebooks to run our 3D segmentation with classical watershed algorithm and StarDist deep learning model, and analyse the resulting data.
 
 To do so, we will create a conda environment during the workshop following [these instructions](conda_env_setup.md).
+
 

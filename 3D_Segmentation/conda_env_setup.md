@@ -27,26 +27,57 @@ We will be using a .yml file to setup our conda environment.  YAML files (*Yet A
     ```
     conda activate calm-3dsegm
     ```
-6. Install the kernel manager, remote_ikernel:
+6. Open Jupyter Lab and check that the installed packages can be correctly imported.
     ```
-    pip install remote_ikernel
+    jupyter lab
     ```
-7. Once installed, we can link the kernel to Jupyter with the following command:
-    ```
-    python -m ipykernel install --user --name=calm-3dsegm --display-name "MDIA 3D Segmentation"
-    ```
-8. Open Jupyter notebooks from the terminal:
-    ```
-    jupyter notebook
-    ```
-9. Once it opens, create a new notebook and try running:
-    ```
-    import stardist
-    ```
-  If it works, we are on the right track!
+    When Jupyter lab opens in the web browser, open a new notebook with File/New/Notebook
+<p align="center">
+  <img width="90%" src="./../assets/Jupyter_notebook_Open_new.png" alt="Tracking Visualisation">
+</p>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Select a python kernel
+<p align="center">
+  <img width="90%" src="./../assets/Jupyter_notebook_Select_kernel.png" alt="Tracking Visualisation">
+</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Type in one cell
+
+  ```
+    import numpy as np
+  ```
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and run
+<p align="center">
+    <img width="90%" src="./../assets/Jupyter_notebook_Run_cell.png" alt="Tracking Visualisation">
+</p>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;If no error is found, it means that the package has been installed correctly.
 
 
-For more information on using conda, see [here](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html).
+
+<br>
+
+For more information on using conda, see [Conda Documentation](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html).
+<br>
 
 For a detailed explanation on Jupyter Lab, visit the [Jupyter Lab User Documentation](https://jupyterlab.readthedocs.io/en/latest/)
+
+<br>
+<hr>
+
+### Bonus track: calling software installed in a different environment
+If you have installed Jupyter Lab in one environment but want to call some software installed in a different environment, it is possible to run the notebook using a different kernel that will have access to the packages in the other environment. In general, to do so one needs to install ipython and ipykernel, but in our case they are already installed as dependencies with napari.
+
+To make visible a different environment as a kernel, one would need to list it using the conda prompt. For example, if you have a specific version on napari installed in a conda environment called "napari-env":
+
+
+  ```
+  python -m ipykernel install --user --name napari-env --display-name "napari-env"
+  ```
+  and 
+```
+exit
+```
+from the ipython terminal (going back to conda prompt).
+
+After relaunching Jupyter Lab, the new kernel should be visible.
 
