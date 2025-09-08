@@ -37,6 +37,6 @@ Please read the following instructions carefully to prepare for the workshop. Co
 
 ## Installing conda
 
-1. Install Miniconda by following the installation instructions for your operating system at [this page](https://docs.anaconda.com/free/miniconda/miniconda-install/)
+1. Install Miniconda by following the installation instructions for your operating system at [this page](https://www.anaconda.com/download/success)
 2. Please check the installation worked properly by opening the Terminal (MacOS) or Anaconda Prompt (Windows) and typing `conda list`. If conda has been installed correctly, a list of installed packages appears.
 3. You can find a conda "cheat sheet" [here](https://conda.io/projects/conda/en/latest/_downloads/843d9e0198f2a193a3484886fa28163c/conda-cheatsheet.pdf), which you may find useful for reference during the workshop.
