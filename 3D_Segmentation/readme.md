@@ -5,7 +5,7 @@
 </p>
 
 ## Slides
-The slides used in the workshop are available in our [Dropbox]([https://www.dropbox.com/home/LightMicroscopy/Training/Multi-Dimensional%20Imaging%20and%20Analysis%20Course/2025%20Multi-Dimensional%20Imaging%20and%20Analysis%20Course/Sessions/04%203D%20imaging%20and%20segmentation/Analysis%20Workshop](https://www.dropbox.com/scl/fo/51nqcssi6hvhd8bwkd5vf/AK9Ys1XvoGUCSpC2gu3fE0M?rlkey=j1kzznn3c1p2jltsxt7p1w91h&st=09jccm9y&dl=0)).
+The slides used in the workshop are available in our [Dropbox](https://www.dropbox.com/scl/fo/51nqcssi6hvhd8bwkd5vf/AK9Ys1XvoGUCSpC2gu3fE0M?rlkey=j1kzznn3c1p2jltsxt7p1w91h&st=09jccm9y&dl=0).
 
 ## Download
 **Please download the files to a location on your hard drive that is easy to find!**
