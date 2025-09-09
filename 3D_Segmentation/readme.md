@@ -5,7 +5,7 @@
 </p>
 
 ## Slides
-The slides used in the workshop are available in our [Dropbox](https://www.dropbox.com/scl/fo/51nqcssi6hvhd8bwkd5vf/AK9Ys1XvoGUCSpC2gu3fE0M?rlkey=j1kzznn3c1p2jltsxt7p1w91h&st=09jccm9y&dl=0).
+The slides used in the workshop are available in our [Dropbox](https://www.dropbox.com/scl/fo/51nqcssi6hvhd8bwkd5vf/AK9Ys1XvoGUCSpC2gu3fE0M?rlkey=j1kzznn3c1p2jltsxt7p1w91h&st=5zpxnlhx&dl=0).
 
 * Introduction to napari and conda env creation - Rocco D'Antuono [slides](https://docs.google.com/presentation/d/13FnxLvyOiDoO1KNglLPJ_rvMMZurzkL4ad9YzchBZX0/edit?usp=sharing)
  
