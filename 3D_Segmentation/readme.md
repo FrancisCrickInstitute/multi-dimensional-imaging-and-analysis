@@ -5,7 +5,7 @@
 </p>
 
 ## Slides
-* Session 1: Introduction to 3D segmentation and coding basics – Sara Salgueiro Torres; [slides](https://www.dropbox.com/scl/fi/trte83ubaspa7d00g46on/Sara_S1_3DSeg_MDIA25.pptx?rlkey=xbi8n405o6wl2d512uhhge22v&st=z9ixzfdj&dl=0)
+* Session 1: Introduction to 3D segmentation and installation – Sara Salgueiro Torres; [slides](https://www.dropbox.com/scl/fi/trte83ubaspa7d00g46on/Sara_S1_3DSeg_MDIA25.pptx?rlkey=xbi8n405o6wl2d512uhhge22v&st=z9ixzfdj&dl=0)
 * Session 2: Introduction to napari and conda env creation - Rocco D'Antuono; [slides](https://docs.google.com/presentation/d/13FnxLvyOiDoO1KNglLPJ_rvMMZurzkL4ad9YzchBZX0/edit?usp=sharing)
  
 
