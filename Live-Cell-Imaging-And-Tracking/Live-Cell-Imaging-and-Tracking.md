@@ -47,3 +47,9 @@ For this module, you need to set up a conda environment to analyse tracking data
 For more information on using conda, see [here](https://conda.io/projects/conda/en/latest/user-guide/getting-started.html).
 
 For a detailed explanation on Jupyter Lab, visit the [Jupyter Lab User Documentation](https://jupyterlab.readthedocs.io/en/latest/)
+
+## Run the Jupyter notebooks on Binder
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/FrancisCrickInstitute/multi-dimensional-imaging-and-analysis/main?urlpath=%2Fdoc%2Ftree%2FLive-Cell-Imaging-And-Tracking%2Fcompare_track_data.ipynb)
+
+[Binder](https://mybinder.org/) allows you to open notebooks stored in a GitHub repo in a remote executable environment, making your code immediately reproducible by anyone, anywhere.
