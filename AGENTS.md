@@ -43,10 +43,10 @@ This is a **workshop teaching repository** for the "Multi-Dimensional Imaging an
 
 ### Jupyter notebooks (`.ipynb`)
 - Designed for workshop participants to run interactively. Many cells have no pre-executed output.
-- **Live-Cell-Imaging-And-Tracking** notebooks:
-  - `compare_track_data.ipynb` — Reads TrackMate CSV exports, compares track metrics (mean speed, etc.) across positions using matplotlib/seaborn.
-  - `compare_FUCCI_markers.ipynb` — Analyzes FUCCI fluorescence data from TrackMate spots CSV, compares marker intensity over time.
-  - `plot_fluorescence_profiles.ipynb` — Plots intensity profiles for individual tracks from TrackMate spots data.
+- **Live-Cell-Imaging-And-Tracking** notebooks (recommended order: `compare_track_data` → `compare_FUCCI_markers` → `plot_fluorescence_profiles`):
+  - `compare_track_data.ipynb` — Simplest notebook. Reads TrackMate tracks CSV, plots a chosen metric (e.g. `TRACK_MEAN_SPEED`) across imaging positions with histogram and swarmplot.
+  - `compare_FUCCI_markers.ipynb` — Most complex. Reads TrackMate spots CSV, uses sliding-window thresholding to detect intensity drops in Ch2 (G1 marker) and Ch3 (S/G2/M marker), then measures time between transitions.
+  - `plot_fluorescence_profiles.ipynb` — Plots per-track Ch2/Ch3 intensity profiles over time for visual inspection of individual cell behaviour.
 - **3D_Segmentation** notebooks:
   - `Watershed_3DSegmentation.ipynb` — Classical watershed segmentation with scikit-image and napari visualization.
   - `StarDist_Demo.ipynb` — Deep learning 3D nucleus segmentation using StarDist + TensorFlow.
@@ -60,6 +60,20 @@ This is a **workshop teaching repository** for the "Multi-Dimensional Imaging an
 ### Conda environments
 - **3D Segmentation**: `calm-3dsegm` environment from `calm-3dsegm.yml` (conda-forge channel, includes stardist, napari, tensorflow via pip).
 - **Cell Tracking**: `cell-tracking` environment created manually with `python=3.13`, then pip installs from `tracking_requirements.txt`.
+
+## Ongoing improvements: Live-Cell-Imaging-And-Tracking module
+
+The following improvements to the tracking module were planned but NOT YET COMPLETED:
+
+- **Step 3**: `compare_FUCCI_markers.ipynb` — Add a markdown cell mapping channel numbers to biological meaning (Ch2=G1, Ch3=S/G2/M) and explain `FRAME_DURATION`, `THRESHOLD`, `WINDOW` as variables rather than magic constants.
+- **Step 4**: Module README — Replace single Binder badge with a link that opens Jupyter Lab at the directory level so students can access all three notebooks.
+- **Step 5**: Notebook metadata — Normalize `language_info.version` and `pygments_lexer` across all three notebooks (two incorrectly claim Python 2.7 / ipython2; the third correctly shows 3.12.4 / ipython3).
+- **Step 6**: `plot_fluorescence_profiles.ipynb` — Add a concluding markdown cell with interpretation guidance (e.g., what simultaneous drops in Ch2/Ch3 indicate).
+- **Step 7**: Create `Live-Cell-Imaging-And-Tracking/instructor-notes.md` with session timing, common student pitfalls, and expected discussion answers.
+
+Steps 1 and 2 have been completed:
+- Module README now has a "Notebook overview" table, "Which data are we analysing?" section explaining FUCCI markers, and fixed step numbering.
+- `compare_track_data.ipynb` generic library-intro cells replaced with data-specific explanations.
 
 ## Conventions and gotchas
 
