@@ -12,6 +12,33 @@ All the slides that will be used in this session are [here](https://www.dropbox.
 
 We're going to be working with some example datasets, which you can download from [here](https://www.dropbox.com/scl/fo/6ps6vv4yhm09zszrvg55x/AIAmiU20I5_W7mfirW8yeJA?rlkey=35p3v8txyk7z2p1833th4as37&st=77egkh54&dl=0).
 
+## Notebook overview
+
+We will use three Jupyter notebooks, ideally in the following order:
+
+| Notebook | What it does | Biological question |
+|---|---|---|
+| `compare_track_data.ipynb` | Plots a chosen track metric (e.g. mean speed) across all imaging positions | Do cells in different positions show different motility? |
+| `compare_FUCCI_markers.ipynb` | Detects intensity drops in two fluorescence channels and measures the time between them | How long do cells spend between G1/S-phase and M/G1-phase transitions? |
+| `plot_fluorescence_profiles.ipynb` | Plots per-track fluorescence intensity profiles over time | How do the two FUCCI marker intensities change together over a single cell cycle? |
+
+`compare_track_data.ipynb` is the simplest and best entry point. `compare_FUCCI_markers.ipynb` is the most complex — it introduces thresholding, sliding-window analysis, and frame-difference calculations. `plot_fluorescence_profiles.ipynb` is useful for exploring individual cell behaviour after running the other notebooks.
+
+## Which data are we analysing?
+
+The `TrackMate_Outputs/` folder contains data from a FUCCI (Fluorescence Ubiquitination-based Cell Cycle Indicator) live-cell imaging experiment. TrackMate exported two CSV types per position:
+
+| File type | Content |
+|---|---|
+| `*_tracks.csv` | One row per tracked cell — metrics like speed, displacement, duration |
+| `*_spots.csv` | One row per detection per frame — per-spot fluorescence intensities and coordinates |
+
+The FUCCI system uses two markers:
+- **Channel 2 (MEAN_INTENSITY_CH2)**: marks G1 phase
+- **Channel 3 (MEAN_INTENSITY_CH3)**: marks S/G2/M phases
+
+A drop in Channel 3 intensity indicates the M/G1 transition (cell division). The time between Channel 3 drop and the subsequent Channel 2 drop measures the G1-to-S transition duration.
+
 ## Set up conda environment
 
 For this module, you need to set up a conda environment to analyse tracking data in Jupyter notebooks.
@@ -27,19 +54,19 @@ For this module, you need to set up a conda environment to analyse tracking data
     ```
     conda create --name cell-tracking python=3.13
     ```
-6. Check that the environment was created:
+5. Check that the environment was created:
     ```
     conda env list
     ```
-7. Activate your new environment so you can use it:
+6. Activate your new environment so you can use it:
     ```
     conda activate cell-tracking
     ```
-8. Install the necessary packages for this session:
+7. Install the necessary packages for this session:
     ```
     python -m pip install -r ./tracking_requirements.txt
     ```
-9. Open Jupyter Lab:
+8. Open Jupyter Lab:
     ```
     jupyter-lab
     ```
