@@ -70,7 +70,7 @@ The following improvements to the tracking module were planned but NOT YET COMPL
 - **Step 6**: `plot_fluorescence_profiles.ipynb` — Add a concluding markdown cell with interpretation guidance (e.g., what simultaneous drops in Ch2/Ch3 indicate).
 - **Step 7**: Create `Live-Cell-Imaging-And-Tracking/instructor-notes.md` with session timing, common student pitfalls, and expected discussion answers.
 
-Steps 1, 2, 3, and 4 have been completed:
+Steps 1 through 5 have been completed:
 - Module README now has a "Notebook overview" table, "Which data are we analysing?" section explaining FUCCI markers, and fixed step numbering.
 - `compare_track_data.ipynb` generic library-intro cells replaced with data-specific explanations.
 
