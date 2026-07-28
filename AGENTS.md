@@ -42,7 +42,7 @@ This is a **workshop teaching repository** for the "Multi-Dimensional Imaging an
 - Recursively processes folders, splits multi-channel z-stacks into individual TIFF images.
 
 ### Jupyter notebooks (`.ipynb`)
-- Designed for workshop participants to run interactively. Many cells have no pre-executed output.
+- Designed for workshop participants to run interactively.
 - **Live-Cell-Imaging-And-Tracking** notebooks (recommended order: `compare_track_data` → `compare_FUCCI_markers` → `plot_fluorescence_profiles`):
   - `compare_track_data.ipynb` — Simplest notebook. Reads TrackMate tracks CSV, plots a chosen metric (e.g. `TRACK_MEAN_SPEED`) across imaging positions with histogram and swarmplot.
   - `compare_FUCCI_markers.ipynb` — Most complex. Reads TrackMate spots CSV, uses sliding-window thresholding to detect intensity drops in Ch2 (G1 marker) and Ch3 (S/G2/M marker), then measures time between transitions.
