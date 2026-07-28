@@ -61,19 +61,6 @@ This is a **workshop teaching repository** for the "Multi-Dimensional Imaging an
 - **3D Segmentation**: `calm-3dsegm` environment from `calm-3dsegm.yml` (conda-forge channel, includes stardist, napari, tensorflow via pip).
 - **Cell Tracking**: `cell-tracking` environment created manually with `python=3.13`, then pip installs from `tracking_requirements.txt`.
 
-## Ongoing improvements: Live-Cell-Imaging-And-Tracking module
-
-The following improvements to the tracking module were planned but NOT YET COMPLETED:
-
-- **Step 4**: Module README — Replace single Binder badge with a link that opens Jupyter Lab at the directory level so students can access all three notebooks.
-- **Step 5**: Notebook metadata — Normalize `language_info.version` and `pygments_lexer` across all three notebooks (two incorrectly claim Python 2.7 / ipython2; the third correctly shows 3.12.4 / ipython3).
-- **Step 6**: `plot_fluorescence_profiles.ipynb` — Add a concluding markdown cell with interpretation guidance (e.g., what simultaneous drops in Ch2/Ch3 indicate).
-- **Step 7**: Create `Live-Cell-Imaging-And-Tracking/instructor-notes.md` with session timing, common student pitfalls, and expected discussion answers.
-
-Steps 1 through 6 have been completed:
-- Module README now has a "Notebook overview" table, "Which data are we analysing?" section explaining FUCCI markers, and fixed step numbering.
-- `compare_track_data.ipynb` generic library-intro cells replaced with data-specific explanations.
-
 ## Conventions and gotchas
 
 - **No automated tooling**: No CI, no Makefile, no pre-commit hooks, no test framework. This is intentional — the repo is workshop materials, not code.
