@@ -1,8 +1,9 @@
 # Preparation For Introduction to Image Analysis Workshop
 
 Please read the following instructions carefully to prepare for the workshop. Completing these steps prior to the workshop is essential to ensure we stay on schedule. If you are having any trouble with the below instructions, please reach out for help:
-* For issues with FIJI or QuPath, contact Dave (David.Barry@crick.ac.uk)
+* For issues with FIJI contact Dave (David.Barry@crick.ac.uk)
 * For issues with CellProfiler or conda, contact Rocco (rocco.dantuono@crick.ac.uk)
+* For issues with QuPath, contact Sara (sara.salgueirotorres@crick.ac.uk)
 
 ## Installing FIJI
 
@@ -29,6 +30,9 @@ Please read the following instructions carefully to prepare for the workshop. Co
 ## Installing QuPath
 
 Download the latest version of QuPath (v0.7) from [here](https://qupath.github.io/).
+
+* The first time you open QuPath, you will be prompted to select your User Directory. We recommend you create a folder (e.g., `qupath_v07`) somewhere locally.
+   * This is where your software extensions and global scripts, amongst others, will be stored. 
 
 ## Installing CellProfiler
 
