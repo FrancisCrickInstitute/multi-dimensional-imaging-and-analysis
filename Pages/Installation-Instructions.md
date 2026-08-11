@@ -28,7 +28,7 @@ Please read the following instructions carefully to prepare for the workshop. Co
 
 ## Installing QuPath
 
-1. Download QuPath from [here](https://qupath.github.io/).
+Download the latest version of QuPath (v0.7) from [here](https://qupath.github.io/).
 
 ## Installing CellProfiler
 
