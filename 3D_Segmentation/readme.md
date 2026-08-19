@@ -1,5 +1,5 @@
 # 3D segmentation
-#### 10th & 11th September 2025
+#### 17th September 2026
 <p align="center">
   <img width="90%" src="./../assets/stardist-3dseg-banner.png" alt="3D Segmentation Visualisation">
 </p>
