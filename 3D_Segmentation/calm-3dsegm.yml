@@ -10,8 +10,10 @@ dependencies:
   - stardist
   - jupyterlab
   - napari
-  - pyqt
+  - pyqt6
+  - git
   - pip
   - pip:
     - tensorflow
+    - napari-zelda @ git+https://github.com/RoccoDAnt/napari-zelda.git
 
