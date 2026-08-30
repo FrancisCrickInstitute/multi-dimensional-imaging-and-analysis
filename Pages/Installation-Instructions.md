@@ -32,7 +32,9 @@ Please read the following instructions carefully to prepare for the workshop. Co
 Download the latest version of QuPath (v0.7) from [here](https://qupath.github.io/).
 
 * The first time you open QuPath, you will be prompted to select your User Directory. We recommend you create a folder (e.g., `qupath_v07`) somewhere locally.
-   * This is where your software extensions and global scripts, amongst others, will be stored. 
+   * This is where your software extensions and global scripts, amongst others, will be stored.
+ 
+> **💡 We highly recommend you bring a mouse with you! It will make your life easier when working with QuPath.**
 
 ## Installing CellProfiler
 
