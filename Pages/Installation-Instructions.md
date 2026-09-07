@@ -2,7 +2,8 @@
 
 Please read the following instructions carefully to prepare for the workshop. Completing these steps prior to the workshop is essential to ensure we stay on schedule. If you are having any trouble with the below instructions, please reach out for help:
 * For issues with FIJI contact Dave (David.Barry@crick.ac.uk)
-* For issues with CellProfiler or conda, contact Rocco (rocco.dantuono@crick.ac.uk)
+* For issues with Python or conda, contact Rocco (rocco.dantuono@crick.ac.uk)
+* For issues with CellProfiler, contact Todd (Todd.Fallesen@crick.ac.uk)
 * For issues with QuPath, contact Sara (sara.salgueirotorres@crick.ac.uk)
 
 ## Installing FIJI
