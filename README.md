@@ -19,5 +19,5 @@ We will be using different software on each day, depending on the module. For sp
        - [QuPath ReadTheDoc](https://qupath.readthedocs.io/en/0.6/docs/tutorials/index.html)
        - [FS2K - From Sample to Knowledge 2025 repo](https://github.com/saramcardle/FS2K)
 3. [Co-Localisation with CellProfiler](./Colocalization/readme.md)
-4. [Cell Tracking](./Live-Cell-Imaging-And-Tracking/Live-Cell-Imaging-and-Tracking.md)
+4. [Cell Tracking](./Live-Cell-Imaging-And-Tracking/readme.md)
 5. [3D Segmentation](./3D_Segmentation/readme.md)
