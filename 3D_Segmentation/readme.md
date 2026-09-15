@@ -5,8 +5,8 @@
 </p>
 
 ## Slides
-* Session 1: Introduction to 3D segmentation and installation – Sara Salgueiro Torres; [slides](Sara_S1_3DSeg_MDIA25.pptx)
-* Session 2: Introduction to napari and conda env creation - Rocco D'Antuono; [slides](https://docs.google.com/presentation/d/13FnxLvyOiDoO1KNglLPJ_rvMMZurzkL4ad9YzchBZX0/edit?usp=sharing)
+* Session 1: Introduction to 3D segmentation and installation – Sara Salgueiro Torres; [slides](3DSegmentation_MDIA_2026.pptx)
+* Session 2: Introduction to napari and conda env creation - Rocco D'Antuono; [slides](https://docs.google.com/presentation/d/1YaR4PwJklzhIjGZ7GtwjXctb2Ugn5HsMLhMCrVbNS74)
  
 
 ## Download
