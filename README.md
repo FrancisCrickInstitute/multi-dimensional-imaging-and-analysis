@@ -21,3 +21,7 @@ We will be using different software on each day, depending on the module. For sp
 3. [Co-Localisation with CellProfiler](./Colocalization/readme.md)
 4. [Cell Tracking](./Live-Cell-Imaging-And-Tracking/readme.md)
 5. [3D Segmentation](./3D_Segmentation/readme.md)
+
+# Presentations
+
+1. [Beyond the microscope - managing and repurposing image data and workflow by Ken Ho Sept 2026](https://franciscrickinstitute.github.io/Beyond_the_Microscope_managing_and_repurposing_image_data_and_workflow/#/)
